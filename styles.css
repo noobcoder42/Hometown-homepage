@@ -1,0 +1,113 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Pridi', serif;
+    background-color: #ECF8F8;
+}
+
+#title {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#title-desc {
+    margin-top: 10px;
+    font-weight: 400;
+    width: 600px;
+    line-height: 30px;
+}
+
+.text-box-utility1 {
+    background-color: rgba(224, 159, 62, 0.7);
+    box-shadow: 2px 2px 5px black;;
+    color: #1E1E1E;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.text-box-utility2 {
+    background-color: rgba(242, 204, 143, 0.7);
+    box-shadow: 2px 2px 5px black;;
+    color: #1E1E1E;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.container {
+    display: block;
+    text-align: center;
+}
+
+.top {
+    background-image: url(images/central-london.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 616px;
+}
+
+.mid-title {
+    margin-top: 25px;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.mid {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.location-imgs {
+    width: 265px;
+    height: 238px;
+    border-radius: 50%;
+    
+}
+
+h3 {
+    font-size: larger;
+}
+
+.locations {
+    width: 360px;
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 85px 0;
+}
+
+.business-card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #408080;
+    border-radius: 8px;
+    border-bottom: 10px solid #3d405b;
+}
+
+.my-pic{
+    width: 260px;
+    margin-right: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #3d405b;
+}
+.my-details {
+    width: 200px;
+    
+}
+
+.business-desc {
+    font-style: italic;
+}
+
+
