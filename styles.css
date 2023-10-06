@@ -41,13 +41,12 @@ body {
 
 .top {
     background-image: url(images/central-london.jpg);
-    background-size: cover;
+    height: 100vh;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 616px;
 }
 
 .mid-title {
@@ -63,8 +62,8 @@ body {
 }
 
 .location-imgs {
-    width: 265px;
-    height: 238px;
+    width: 280px;
+    height: 250px;
     border-radius: 50%;
     
 }
